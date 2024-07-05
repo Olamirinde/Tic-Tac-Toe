@@ -2,7 +2,7 @@ import Square from "./Square";
 
 const TicTacToe = () => {
   return (
-    <div className="container">
+    <div className="clear-both table content-none">
       <div className="row1">
         <Square />
         <Square />
