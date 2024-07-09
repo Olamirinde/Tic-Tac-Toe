@@ -70,7 +70,7 @@ const TicTacToe = () => {
       </div>
       <h1 className="mt-3 p-5 font-mono text-2xl md:text-3xl">{status}</h1>
       <button
-        className="rounded-full border border-orange-600 bg-orange-900 p-2 text-xl text-white sm:text-2xl md:text-3xl"
+        className="ml-2 rounded-full border border-orange-600 bg-orange-900 px-3 py-1 text-sm text-white md:text-2xl"
         onClick={handleRestart}
       >
         Restart
